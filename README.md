@@ -48,17 +48,17 @@ Before training the model, we cleaned the raw dataset using the following steps:
 # ⚙️ Data Preprocessing
 - Preprocesses raw text using:
   
-Lowercasing
-Tokenization
-Stopword removal
-Stemming
+- Lowercasing
+- Tokenization
+- Stopword removal
+- Stemming
 - Converts text to numerical data using TF-IDF
 - Predicts message as Spam or Ham using Naive Bayes
 - Real-time web interface built with Streamlit
 - Displays:
-Prediction result ✅🚨
-Confidence level
-Transformed text for learning/debugging
+- Prediction result ✅🚨
+- Confidence level
+- **Transformed text for learning/debugging**
 
 # 🛠️ Tech Stack
 - Python 3.x
