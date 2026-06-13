@@ -81,7 +81,7 @@ Before training the model, we cleaned the raw dataset using the following steps:
 ┗ 📄 vectorizer.pkl # TF-IDF vectorizer
 
 # 🛠️ How to Run Locally
-In Pycharm's treminal run this commands
+- In Pycharm's treminal run this commands
 # Install streamlit
 pip install streamlit
 
