@@ -28,22 +28,22 @@ Before training the model, we cleaned the raw dataset using the following steps:
 
 # 🧯 Removing Duplicates
 
-Removed any duplicate messages to prevent data leakage or bias in the model.
+- Removed any duplicate messages to prevent data leakage or bias in the model.
 
 # 🔄 Renaming Columns
 
-Renamed:
+- Renamed:
 
-v1 ➝ target
+- v1 ➝ target
 
-v2 ➝ text
+- v2 ➝ text
 
 # 🔢 Encoding Labels
-Converted the target column to numerical:
+- Converted the target column to numerical:
 
-ham ➝ 0
+- ham ➝ 0
 
-spam ➝ 1
+- spam ➝ 1
 
 # ⚙️ Data Preprocessing
 Preprocesses raw text using:
