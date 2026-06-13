@@ -46,26 +46,27 @@ Before training the model, we cleaned the raw dataset using the following steps:
 - spam ➝ 1
 
 # ⚙️ Data Preprocessing
-Preprocesses raw text using:
+- Preprocesses raw text using:
+  
 Lowercasing
 Tokenization
 Stopword removal
 Stemming
-Converts text to numerical data using TF-IDF
-Predicts message as Spam or Ham using Naive Bayes
-Real-time web interface built with Streamlit
-Displays:
+- Converts text to numerical data using TF-IDF
+- Predicts message as Spam or Ham using Naive Bayes
+- Real-time web interface built with Streamlit
+- Displays:
 Prediction result ✅🚨
 Confidence level
 Transformed text for learning/debugging
 
 # 🛠️ Tech Stack
-Python 3.x
-Streamlit
-Pandas, NumPy
-Scikit-learn
-NLTK
-Pickle
+- Python 3.x
+- streamlit
+- Pandas, NumPy
+- Scikit-learn
+- NLTK
+- Pickle
 
 # 📁 Folder Structure
 📦SMS-Spam-Detection
