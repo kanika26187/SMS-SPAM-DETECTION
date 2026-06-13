@@ -44,3 +44,45 @@ ham ➝ 0
 
 spam ➝ 1
 
+# ⚙️ Data Preprocessing
+Preprocesses raw text using:
+Lowercasing
+Tokenization
+Stopword removal
+Stemming
+Converts text to numerical data using TF-IDF
+Predicts message as Spam or Ham using Naive Bayes
+Real-time web interface built with Streamlit
+Displays:
+Prediction result ✅🚨
+Confidence level
+Transformed text for learning/debugging
+
+# 🛠️ Tech Stack
+Python 3.x
+Streamlit
+Pandas, NumPy
+Scikit-learn
+NLTK
+Pickle
+
+# 📁 Folder Structure
+📦Email-Spam-Detection
+
+┣ 📄 Email_Spam_Detection.ipynb # Full notebook code
+
+┣ 📄 spam.csv # Dataset (if public)
+
+┣ 📄 app.py # Streamlit App
+
+┣ 📄 model.pkl # Trained ML model
+
+┗ 📄 vectorizer.pkl # TF-IDF vectorizer
+
+# 🛠️ How to Run Locally
+In Pycharm's treminal run this commands
+# Install streamlit
+pip install streamlit
+
+# Run Streamlit App
+streamlit run app.py
