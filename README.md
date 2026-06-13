@@ -58,7 +58,7 @@ Before training the model, we cleaned the raw dataset using the following steps:
 - Displays:
 - Prediction result ✅🚨
 - Confidence level
-- **Transformed text for learning/debugging**
+- **Transformed text for learning/debugging
 
 # 🛠️ Tech Stack
 - Python 3.x
