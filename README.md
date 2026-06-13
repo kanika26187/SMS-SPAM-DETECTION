@@ -1,4 +1,4 @@
-# SMS-SPAM-DETECTION Using NLP and Streamlit
+# 📩 Email/SMS-SPAM-DETECTION Using NLP and Streamlit
 # 📥How to Get the Dataset
 
 We used the SMS Spam Collection dataset from the UCI Machine Learning Repository. You can download it from here:
@@ -59,7 +59,7 @@ Confidence level
 Transformed text for learning/debugging
 
 # 🛠️ Tech Stack
-Python 3.x
+.Python 3.x
 Streamlit
 Pandas, NumPy
 Scikit-learn
@@ -67,9 +67,9 @@ NLTK
 Pickle
 
 # 📁 Folder Structure
-📦Email-Spam-Detection
+📦SMS-Spam-Detection
 
-┣ 📄 Email_Spam_Detection.ipynb # Full notebook code
+┣ 📄 SMS_Spam_Detection.ipynb # Full notebook code
 
 ┣ 📄 spam.csv # Dataset (if public)
 
