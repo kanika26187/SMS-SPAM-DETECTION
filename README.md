@@ -1,4 +1,7 @@
 # 📩 Email/SMS-SPAM-DETECTION Using NLP and Streamlit
+This is an end-to-end Email/SMS Spam Detection project using Natural Language Processing (NLP) and Machine Learning. The model classifies a message as Spam or Ham (Not Spam) based on its content.
+
+
 # 📥How to Get the Dataset
 
 We used the SMS Spam Collection dataset from the UCI Machine Learning Repository. You can download it from here:
@@ -7,9 +10,9 @@ We used the SMS Spam Collection dataset from the UCI Machine Learning Repository
 
 After downloading:
 
-Extract the file if needed.
+1.Extract the file if needed.
 
-Rename it to spam.csv and place it in your project root directory (or wherever your code is loading it from).
+2.Rename it to spam.csv and place it in your project root directory (or wherever your code is loading it from).
 
 # 🧹 Data Cleaning Steps
 
@@ -17,13 +20,13 @@ Before training the model, we cleaned the raw dataset using the following steps:
 
 # 🔻 Dropping Unnecessary Columns
 
-The original dataset has some unnamed or metadata columns (like Unnamed: 2, Unnamed: 3, etc.)
+-The original dataset has some unnamed or metadata columns (like Unnamed: 2, Unnamed: 3, etc.)
 
-We dropped all irrelevant columns and kept only:
+-We dropped all irrelevant columns and kept only:
 
-v1 (Label: spam/ham)
+-v1 (Label: spam/ham)
 
-v2 (Message)
+-v2 (Message)
 
 # 🧯 Removing Duplicates
 
@@ -59,7 +62,7 @@ Confidence level
 Transformed text for learning/debugging
 
 # 🛠️ Tech Stack
-.Python 3.x
+Python 3.x
 Streamlit
 Pandas, NumPy
 Scikit-learn
