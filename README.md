@@ -20,13 +20,11 @@ Before training the model, we cleaned the raw dataset using the following steps:
 
 # 🔻 Dropping Unnecessary Columns
 
--The original dataset has some unnamed or metadata columns (like Unnamed: 2, Unnamed: 3, etc.)
-
--We dropped all irrelevant columns and kept only:
-
--v1 (Label: spam/ham)
-
--v2 (Message)
+- The original dataset contained additional unnamed columns (such as Unnamed: 2, Unnamed: 3, and Unnamed: 4) that did not contain useful information.
+- These irrelevant columns were removed during preprocessing.
+- Only the following columns were retained:
+  - **v1**: Label of the message (`spam` or `ham`)
+  - **v2**: SMS message text
 
 # 🧯 Removing Duplicates
 
